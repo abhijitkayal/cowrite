@@ -1,0 +1,42 @@
+{
+  "name": "collab-docs-backend-first",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "collab:server": "node scripts/collaboration-server.mjs",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tiptap/extension-collaboration": "^3.12.2",
+    "@tiptap/extension-document": "^3.12.2",
+    "@tiptap/extension-paragraph": "^3.12.2",
+    "@tiptap/extension-text": "^3.12.2",
+    "@tiptap/react": "^3.12.2",
+    "bcryptjs": "^3.0.2",
+    "dexie": "^4.2.1",
+    "jose": "^6.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^1.23.0",
+    "mongoose": "^8.17.2",
+    "next": "^16.0.0",
+    "nodemailer": "^9.0.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "ws": "^8.21.0",
+    "y-websocket": "^1.5.4",
+    "yjs": "^13.6.27",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "tailwindcss": "^4.1.17",
+    "typescript": "^5.9.3"
+  }
+}
